@@ -57,7 +57,7 @@ Se pretende que nuestra tienda electrónica abarque una amplia variedad de produ
 ***
 * Gabriela Nuno Zamora
 * Jovanni Miguel Lozano Martínez
-* Luis Javier Morales Rivas: Estudiante de Ingeniería Industrial y Sistemas
+* Luis Javier Morales Rivas: 22 años, estudiante de Ingeniería Industrial y Sistemas. 
 * María Guadalupe García Mendiola
 #### Referentes del Mercado
 ***
@@ -73,9 +73,11 @@ Steren es una de las tiendas electrónicas más grandes del país, se dedican a 
 Best Buy es una compañia especializada en venta de prouductos electrónicos y tecnologicos originaria de Estados Unidos, además, cuentan con envios a Canada y México, convirtiendose así en una de las compañias más grandes del mercado.
 
 * **Walmart México**:
+
 Walmart es una de las organizaciones más grandes del mundo, con una de las plataformas de comercio electrónico más variadas y populares del país. Ofrecen productos que cubren las necesidades de todo tipo de consumidores, desde comestibles y artículos de farmacia, hasta moda y electrónica. 
 
 * **Amazon México**:
+
 Se estima que en promedio el número de visitantes de la página de _Amazon México_ es de 64 millones al mes, además de la gran presencia y expanción que ha tenido en el comercio electrónico a nivel mundial, es por ello que se ha convertido en una superpotencia del e-commerce y por lo tanto un referente para el desarrollo de nuestro proyecto. 
 ##### FAQs
 ***
