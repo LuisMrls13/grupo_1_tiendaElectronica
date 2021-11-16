@@ -37,11 +37,24 @@ _¿Qué productos o servicios brindará nuestro sitio? ¿Quién será nuestra au
 objetivo? ¿Cómo ajustaremos nuestra oferta a ese público?_
 ## Descripción de los integrantes
 ***
-* _Integrantes listados_
+* Gabriela Nuno Zamora
+* Jovanni Miguel Lozano Martínez
+* Luis Javier Morales Rivas: Estudiante de Ingeniería Industrial y Sistemas
+* María Guadalupe García Mendiola
 #### Referentes del Mercado
 ***
 _Listado de referentes para el desarrollo del proyecto:_
-* Mercado Libre
-![MercadoLibre](//www.mercadolibre.com.mx)
+* **Mercado Libre**: 
+
+Dada la magnitud y diversidad de productos que Mercado Libre maneja, es un referente mundial para el e-commerce, es por ello que decidimos tomarlo en cuenta para la realización de nuestro proyecto.
+* **Steren**:
+
+Steren es una de las tiendas electrónicas más grandes del país, se dedican a distribuir una gran variedad de productos electrónicos como electrodomésticos, sistemas de seguridad, instrumentos musicales, computadoras, televisiones, entre otros. Es por ello que decidimos tomarlos como referentes teniendo en cuenta la similitud entre los productos que ofrecen y nuestro proyecto. 
+* **Best Buy**: 
+
+Best Buy es una compañia especializada en venta de prouductos electrónicos y tecnologicos originaria de Estados Unidos, además, cuentan con envios a Canada y México, convirtiendose así en una de las compañias más grandes del mercado.
+
+
+
 ##### FAQs
 ***
