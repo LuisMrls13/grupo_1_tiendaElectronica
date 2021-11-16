@@ -1,4 +1,4 @@
-Tienda de Electrónica 
+# **Tienda de Electrónica** 
 ***
 ## Tabla de contenidos
 1. [Objetivo](#objetivo)
@@ -12,7 +12,7 @@ Tienda de Electrónica
 
 ## Objetivo
 ***
-Desarrollar un _e-comerce_ para poner a prueba el desempeñi de nuestro equipo al trabajar con **Node.js y React**.
+Desarrollar un _e-comerce_ para poner a prueba el desempeño de nuestro equipo al trabajar con **Node.js y React**.
 ## Metodología
 ***
 A la hora de desarrollar el proyecto, el cliente pide que se imlemente un sistema de trabajo basado en las **metodologías ágiles**. Es por ello que el desarrollo se dividirá en iteraciones (_sprints_). 
@@ -38,6 +38,10 @@ objetivo? ¿Cómo ajustaremos nuestra oferta a ese público?_
 ## Descripción de los integrantes
 ***
 * _Integrantes listados_
-## Referentes del Mercado
+#### Referentes del Mercado
 ***
-### FAQs
+_Listado de referentes para el desarrollo del proyecto:_
+* Mercado Libre
+![MercadoLibre](//www.mercadolibre.com.mx)
+##### FAQs
+***
