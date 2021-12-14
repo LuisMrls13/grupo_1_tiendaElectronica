@@ -55,7 +55,7 @@ El proyecto tendrá una duración aproxiamada de 16 semanas divididas en **8 spr
 Se pretende que nuestra tienda electrónica abarque una amplia variedad de productos desde instrumentos musicales y artículos de uso personal hasta aparatos para el hogar, el trabajo o la escuela. Considerando lo anterior, nuestro público objetivo es indistinto en cuanto a edad, sexo y nacionalidad, siempre y cuando cuenten con el poder adquisitivo necesario dada la calidad y diversidad de marcas que abarcara nuestro proyecto. 
 ## Descripción de los integrantes
 ***
-* Gabriela Nuno Zamora
+* Gabriela Nuno Zamora: 23 años, estudiante de medicina. 
 * Jovanni Miguel Lozano Martínez
 * Luis Javier Morales Rivas: 22 años, estudiante de Ingeniería Industrial y Sistemas. 
 * María Guadalupe García Mendiola
