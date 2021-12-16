@@ -57,7 +57,6 @@ Se pretende que nuestra tienda electrónica abarque una amplia variedad de produ
 ***
 * Gabriela Nuno Zamora: 23 años, estudiante de medicina. 
 * Jovanni Miguel Lozano Martínez
-* Luis Javier Morales Rivas: 22 años, estudiante de Ingeniería Industrial y Sistemas. 
 * María Guadalupe García Mendiola
 #### Referentes del Mercado
 ***
