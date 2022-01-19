@@ -1,0 +1,25 @@
+<%- include ("../partials/headHTML.ejs")%>
+<%- include ("../partials/headWeb.ejs")%>
+<%- include ("../partials/menu.ejs")%>
+
+<h1>Producto</h1>
+<p></p>
+<h2><%=producto.Nombre%></h2>
+<p></p>
+<p>Precio: <%=producto.Precio%> </p>
+<p></p>
+<p>Marca: <%=producto.Marca%></p>
+<p></p>
+<p>Descripción:</p>
+<p><%=producto.Descripcion%></p>
+
+<p></p>
+
+<img src="/img/productos/<%=producto.Imagenes[0]%>"  alt="<%=producto.Nombre%>" class="product_img" height="100%">
+
+<p></p>
+<p>Caracteristicas:</p>
+<p><%=producto.Caracteristicas%></p>
+
+<%- include ("../partials/footer.ejs")%>
+

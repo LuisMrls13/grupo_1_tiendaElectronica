@@ -1,0 +1,24 @@
+<%- include ("./partials/headHTML.ejs")%>
+<%- include ("./partials/headWeb.ejs")%>
+<%- include ("./partials/menu.ejs")%>
+    
+<section>
+  <h2>Ofertas</h2>
+  <section class="cArticulos">
+
+    <%for(let i=0;i<4;i++){%>
+    <% let ID= Math.floor(Math.random()* (productos.length - 0)) + 0%>
+      <article class="fArticulo">
+        <a href="/products/<%=productos[ID].ID%>"><div class="cImagen"><img src="/img/productos/<%=productos[ID].Imagenes[0]%>"  alt="<%=productos[ID].Nombre%>" class="product_img" height="100%"></div></a>
+        <div><a href="/products/<%=productos[ID].ID%>"><%=productos[ID].Nombre%></a></div>
+        <div>Precio: $<%=productos[ID].Precio%></div>
+        <div>Descuento</div>
+        <div>Agregar Carrito</div>
+      </article>
+   <% }%>
+    
+  </section>
+</section>
+
+
+<%- include ("./partials/footer.ejs")%>
