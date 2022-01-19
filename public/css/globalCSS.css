@@ -1,0 +1,18 @@
+body
+{
+    background:lightgray;
+    font-family: 'Ebrima';
+    font-size: 16px;
+}
+
+.cabecera
+{
+    background: white;
+    text-align: center;
+}
+
+.cFooter
+{
+    background-color: rgb(22, 21, 21);
+    color:white;
+}
