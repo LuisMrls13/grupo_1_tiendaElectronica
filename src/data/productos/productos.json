@@ -1,0 +1,131 @@
+[
+ {
+  "ID": 1,
+  "Nombre": "Laptop HP 22B03LA Athlon Silver 4GB RAM 256GB SSD",
+  "Marca": "HP",
+  "Precio": "8999",
+  "Descripcion": "Teclado en Español\r\n\r\nGarantía 1 Año con fabricante\r\n\r\nGráficos AMD Radeon\r\n\r\nProcesador AMD AthlonSilver 3050U\r\n\r\nPantalla 14 pulgadas HD\r\n\r\nLigra y Delgada\r\n\r\nIdeal para Escuela o Trabajo\r\n\r\nCompra en tu tienda en línea mejores marcas de computadoras ¡Forma parte de la evolución digital!",
+  "Caracteristicas": "﻿color:dorado\r\npeso :1kg\r\n",
+  "Imagenes": [
+   "LaptopHp22B03LA_1.webp",
+   "LaptopHp22B03LA_2.webp",
+   "LaptopHp22B03LA_3.webp"
+  ]
+ },
+ {
+  "ID": 2,
+  "Nombre": "Mac Mini Apple Intel Core i5 Gen 8th 8GB RAM 512GB SSD ",
+  "Marca": "Apple",
+  "Precio": "28999",
+  "Descripcion": "Cuenta con procesador octava generación de 6 núcleos\r\n\r\nSistema operativo MAC OS\r\n\r\nIntegra Intel UHD Graphics 630\r\n\r\nDisfruta de una capacidad de procesamiento de excelente desempeño\r\n\r\nEstá lista para cualquier desafío: desde la automatización de tu casa hasta el manejo de enormes granjas de renderización\r\n\r\nRAM: 8 GB, so‑dimm ddr4 con 2666 mhz, con posibilidad de configuración para 16, 32 y 64 GB\r\n\r\nResolución 4096 x 2160 a 60 Hz\r\n\r\nEn nuestra tienda en línea podrás encontrar accesorios para computadoras, diversos modelos de mouse, bocinas portátiles, impresoras multifuncionales, cartuchos de tinta y muchos productos con entrega a domicilio.",
+  "Caracteristicas": "﻿Alto (cm):6.5\r\nAncho (cm):20.4\r\nFondo (cm):20.7\r\nPeso (kg):1.58\r\nSistema Operativo:Mac\r\nCámara:No\r\n",
+  "Imagenes": [
+   "MacMini_1.jpg",
+   "MacMini_2.jpg",
+   "MacMini_3.jpg"
+  ]
+ },
+ {
+  "ID": 3,
+  "Nombre": "MacBook Air Apple MGN93LA/A M1 8GB RAM 256GB SSD",
+  "Marca": "Apple",
+  "Precio": "22999",
+  "Descripcion": "Pantalla de 13 pulgadas\r\n\r\nResolución de 2560 x 1600\r\n\r\nSistema operativo MACOS\r\n\r\nChip M1 de Apple\r\n\r\nCPU de 8 núcleos\r\n\r\nBatería de 18 hrs de duración\r\n\r\n¡En nuestra tienda en línea podrás encontrar hasta la puerta de tu hogar accesorios para computadoras, \r\nunidades de almacenamiento, diversos modelos de mouse, cartuchos de tinta y muchos productos más \r\ngracias a su entrega a domicilio!",
+  "Caracteristicas": "﻿Color:Plateado\r\nAlto (cm):6.1\r\nAncho (cm):32.4\r\nFondo (cm):23.1\r\nPeso(kg):2\r\nSistema operativo:Mac\r\nCapacidad Memoria RAM:8GB\r\n",
+  "Imagenes": [
+   "MacbookAir_1.jpg",
+   "MacbookAir_2.jpg"
+  ]
+ },
+ {
+  "ID": 4,
+  "Nombre": "Laptop Yoga Touch 11.6¨ Direkt-Tek Direkt-Tek DTLAPY 116-1 Intel Quad Core Ram 4GB W10 ",
+  "Marca": "Direkt-Tek",
+  "Precio": "4999",
+  "Descripcion": "Pantalla Touch 11.6 pulgadas.\r\n\r\nMemoria RAM 4GB.\r\n\r\nAlmacenamiento 32GB.\r\n\r\nComputadora portátil convertible Direkt-Tek es tan formidable como versátil. \r\nTransición sin problemas entre el modo portátil y el modo tableta cuando sea necesario con una \r\nclaridad HD de 1920 x 1080 en una pantalla IPS de 11.6\". Procesador Intel Z8350 Quad Core 1.44 GHz, Memoria RAM 4GB, \r\nWindows 10 pone a su alcance la capacidad de trabajo.&nbsp;",
+  "Caracteristicas": "﻿Color:Negro\r\nBatería:Integrada\r\nSistema Operativo:Windows10\r\nCapacidad Memoria RAM:4GB\r\nCapacidad de Almacenamiento:Interna 32GB\r\nC'amara:2MP\r\n",
+  "Imagenes": [
+   "LaptopYoga_2.jpeg",
+   "LaptopYoga_2.jpeg",
+   "LaptopYoga_3.jpeg"
+  ]
+ },
+ {
+  "ID": 5,
+  "Nombre": "Laptop Acer Aspire 1 A114-32-C087 Intel Celeron 4GB RAM 64GB eMMc",
+  "Marca": "Acer",
+  "Precio": "5999",
+  "Descripcion": "Pantalla de 14 pulgadas\r\n\r\nSistema operativo Windows\r\n\r\nSonido digital\r\n\r\nIdeal para trabajos escolares y navegación web\r\n\r\nResolución 1366 x 768\r\n\r\nEn nuestra tienda en línea podrás encontrar accesorios para computadoras, \r\ndiversos modelos de mouse, bocinas portátiles, impresoras multifuncionales, \r\ncartuchos de tinta y muchos productos con entrega a domicilio.",
+  "Caracteristicas": "﻿Color:Azul\r\nAlto (cm):1.79\r\nAncho (cm):24.5\r\nFondo (cm):24.5\r\nPeso (kg):1.65\r\nSistema Operativo:Windows\r\n",
+  "Imagenes": [
+   "AcerAspire_1.jpg",
+   "AcerAspire_2.jpg",
+   "AcerAspire_3.jpg"
+  ]
+ },
+ {
+  "ID": 6,
+  "Nombre": "Laptop Asus Vivobook E12 Intel Celeron 4GB RAM 64GB eMMC",
+  "Marca": "Asus",
+  "Precio": "6999",
+  "Descripcion": "Pantalla de 11.6 Pulgadas\r\n\r\nTeclado en inglés: Producto de importación\r\n\r\nSistema operativo Windows\r\n\r\nSonido envolvente estéreo\r\n\r\nCompra en tu tienda en línea mejores marcas de computadoras \r\n¡Forma parte de la evolución digital!",
+  "Caracteristicas": "﻿Color:Marino\r\nAlto (cm):1.68\r\nAncho (cm):28.15\r\nFondo (cm):32.1\r\nPeso (kg):1.05\r\nSistema operativo:Windows\r\nGráficos:Integrado INTEL\r\n",
+  "Imagenes": [
+   "LaptopAsus_1.jpg",
+   "LaptopAsus_2.jpg",
+   "LaptopAsus_3.jpg"
+  ]
+ },
+ {
+  "ID": 7,
+  "Nombre": "Laptop Lenovo Ideapad S145-14AST AMD A4 8GB RAM 1TB DD más Mochila",
+  "Marca": "Lenovo ",
+  "Precio": "9299",
+  "Descripcion": "Pantalla HD\r\n\r\nSistema Operativo Windows 10 Home\r\n\r\nGráficos discretos opcionales\r\n\r\nPotenciada por el procesamiento AMD\r\n\r\n¡Entra a tu tienda online y lleva todo tipo de laptops, marcas de impresoras o todo lo que necesites para complementar tu equipo de cómputo dando unos cuantos clics!",
+  "Caracteristicas": "﻿Color :Gris\r\nBateria:Ion de Litio\r\nAncho (cm):32.71\r\nAlto (cm):2.27\r\nFondo (cm):24.1\r\nPeso (kg):1.6\r\nSistema operativo:Windows\r\nCapacidad de memoria:8 Gb\r\n",
+  "Imagenes": [
+   "LaptopLenovo_1.jpg",
+   "LaptopLenovo_2.jpg",
+   "LaptopLenovo_3.jpg"
+  ]
+ },
+ {
+  "ID": 8,
+  "Nombre": "Laptop Asus Vivobook X413Ja Intel Core I3 Gen 10Th 4GB RAM 128GB Pcie SSD",
+  "Marca": "Asus",
+  "Precio": "9999",
+  "Descripcion": "Teclado en Ingles. Garantía el importador en México\r\n\r\nGráficos Intel HD 610\r\n\r\nProcesador Intel Core i3 décima generación\r\n\r\nPantalla 14 pulgadas Full HD\r\n\r\nLigera y Delgada\r\n\r\nIdeal para Escuela o Trabajo\r\n\r\nCompra en tu tienda en línea mejores marcas de computadoras ¡Forma parte de la evolución digital! ",
+  "Caracteristicas": "﻿Alto (cm):1.91\r\nAncho (cm):21.4\r\nFondo (cm):32.4\r\nPeso (kg):2.26\r\nSistema operativo:Windows \r\nCapacidad de memoria:4GB\r\n",
+  "Imagenes": [
+   "LaptopVivobook_1.jpg",
+   "LaptopVivobook_2.jpg",
+   "LaptopVivobook_3.jpg"
+  ]
+ },
+ {
+  "ID": 9,
+  "Nombre": "Laptop HP 14-cf2033wm Intel Pentium 4GB RAM 128GB SSD",
+  "Marca": "HP",
+  "Precio": "9999",
+  "Descripcion": "Pantalla de 14 pulgadas LED HD\r\n\r\nCon Windows 10 Home\r\n\r\nTeclado en inglés. Producto de importación con garantía en México por el proveedor\r\n\r\nCámara Resolución 720p\r\n\r\n Intel Pentium Silver N5030 (frecuencia base de 1,1 GHz, frecuencia de ráfaga de hasta 3,1 GHz, 4 MB de caché L2, 4 núcleos)\r\n\r\nNavega dentro de tú tienda en línea para encontrar más variedad de equipos y accesorios.",
+  "Caracteristicas": "﻿Alto (cm):1.9\r\nAncho(cm):22.59\r\nFondo(cm):32.4\r\nPeso(kg):1.47\r\nSistema operativo:Windows\r\nPantalla tactil:no\r\n",
+  "Imagenes": [
+   "LaptopHP14-cf2033_1.jpg",
+   "LaptopHP14-cf2033_2.jpg",
+   "LaptopHP14-cf2033_3.jpg"
+  ]
+ },
+ {
+  "ID": 10,
+  "Nombre": "Laptop Lenovo Ideapad IP1 14ADA05 AMD 3020E 4GB RAM 64GB eMMc incluye Office Perpetuo",
+  "Marca": "Lenovo ",
+  "Precio": "5999",
+  "Descripcion": "Pantalla de 14 pulgadas\r\n\r\nAudio digital\r\n\r\nIncluye licencia Office Perpetuo pre instalado\r\n\r\nSistema operativo Windows\r\n\r\nCámara con resolución 1280 X 720\r\n\r\nAdquiere en nuestra tienda en línea accesorios de computadoras, \r\nimpresoras multifuncionales, cartuchos de tinta, diversos modelos de mouse, \r\nbocinas portátiles y muchos productos más directamente hasta la puerta de tu hogar gracias a su entrega a domicilio.",
+  "Caracteristicas": "﻿Color:Azul\r\nAlto(cm):2.09\r\nAncho(cm):32.7\r\nFondo(cm):23.5\r\nPeso(kg):1.4\r\nSistema Operativo:Windows\r\n",
+  "Imagenes": [
+   "Ideapad_1.jpg",
+   "Ideapad_2.jpg",
+   "Ideapad_3.jpg"
+  ]
+ }
+]
