@@ -1,0 +1,187 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*--------- HEADER ------------*/
+header {
+    background: url("../img/fondo8.jpg") #8CA2A0 ;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+}
+
+header .menu {
+    margin: 40px 0 ;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 1000px;
+}
+
+header .menu a { 
+    margin: 0 20px;
+    color: rgb(1, 0, 3);
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+  
+}
+
+header .menu a:hover {
+border-bottom: 2px solid rgb(37, 12, 151);
+}
+
+header .contenedor-texto {
+    font-family: 'Neucha', cursive;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin: 100px 0;
+}
+
+header .contenedor-texto .texto {
+    border: 2px solid rgba (255,255.255, 0.5);
+    border-radius: 3px;
+    display: 3px;
+    text-align: center;
+    padding: 20px 60px;
+    background-color: #4497b17a
+}
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2 {
+    color: #fff ;
+    font-weight:300;
+    margin: 0 ;
+}
+
+header .contenedor-texto .texto .nombre {
+    margin: 10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+header .contenedor-texto .texto .empresa {
+font-size: 25px;
+line-height: 25px;
+}
+
+/*------- MAIN ---------- */
+
+.main .contenedor {
+    overflow: visible;
+}
+.main .acerca-de {
+    text-align: center;
+}
+
+.main .acerca-de .foto {
+    margin-top: -60px;
+
+}
+.main .acerca-de .foto img {
+    vertical-align: top;
+    border-radius: 90%;
+    border:20px solid white;
+
+}
+
+.main a {
+    margin: 0 20px;
+    color: rgb(1, 0, 3);
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+}
+.main a:hover {
+    border-bottom: 2px solid rgb(37, 12, 151);
+    }
+
+.main .acerca-de .foto .texto {
+    color: #5a5a5a;
+    font-weight: 600 ;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+} 
+.main .acerca-de .texto .titulo {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: black ;
+    text-align: center;
+}
+p .nota{
+    text-align: left;
+    font-size: small
+}
+
+.main .productos {
+    background: hsla(180, 25%, 76%, 0.24) ;
+    padding: 60px 0;
+}
+.main .productos .contenedor {
+    overflow: hidden;
+}
+.main .productos .titulo {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: black ;
+    text-align: center;
+}
+
+.main .productos .contenedor-productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.main .productos .contenedor-productos .producto {
+    width: 23%;
+    margin-bottom: 40px;
+}
+.main .productos .contenedor-productos .producto .thumb {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.main .productos .contenedor-productos .producto .thumb img {
+    width: 100%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+.main .productos .contenedor-productos .producto .descripcion {
+    text-align: center;
+}
+
+.main .productos .contenedor-productos .producto .nombre {
+    font-weight: 700;
+    color: rgb(59, 57, 165);
+    margin-bottom: 10px;
+}
+
+.main .productos .contenedor-productos .producto .categoria {
+    font-size: 14px;
+    color: #636363;
+}
