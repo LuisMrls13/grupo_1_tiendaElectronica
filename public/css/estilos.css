@@ -36,9 +36,12 @@ header .menu .cuenta {
     font-size: 15px;
     background: none;
 }
+
+    
+ 
 header .menu a { 
     margin: 0 20px;
-    color: rgb(102, 100, 79);
+    color: rgb(0, 29, 48);
     padding-bottom: 9px;
     display: inline-block;
     text-decoration: none;
@@ -46,13 +49,28 @@ header .menu a {
     font-size: 1em;
     font-size: 25px; 
     
-    
    }
+
+   
+   header .menu input 
+       {
+        border: #4497b17a;
+        text-align: justify;
+        margin: auto;
+        border: 1px solid #4497b17a;
+        border-radius: 10px;
+        padding: 5px 80px;
+        font-size: 18px;
+        color: #a4a4a4; }
+       
+  
 
 header .menu a:hover {
 border-bottom: 2px solid rgba(75, 59, 27, 0.397)
     }
 
+
+ 
 
 header .contenedor-texto {
     font-family: 'Neucha', cursive;
@@ -267,10 +285,18 @@ background: #b1478e; }
 @media screen and (max-width: 800px) {
     header .menu {
       text-align: center; }
+
+      header .input {
+          text-align: center;
+    flex-wrap: wrap ;
+      }
+    
+     
   
     .main .productos .contenedor-productos .producto {
         width: 46%;
     }
+
 }
 @media screen and (max-width: 500px ){
     header .contenedor-texto .texto .nombre {

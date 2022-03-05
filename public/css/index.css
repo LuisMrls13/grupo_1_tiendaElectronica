@@ -1,0 +1,26 @@
+
+.cArticulos
+{
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap:wrap ;
+    align-self: center;
+    height: 70%;
+}
+.fArticulo
+{
+
+    background: pink;
+    width:40% ;
+    height: 45%;
+    
+}
+
+.cImagen
+{
+    display: flex;
+    text-align: center;
+    height: 66%;
+    justify-content: space-around;
+    align-items:center;  
+}
