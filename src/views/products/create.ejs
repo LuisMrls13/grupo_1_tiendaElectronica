@@ -1,0 +1,41 @@
+<%- include ("../partials/headHTML.ejs")%>
+<%- include ("../partials/headWeb.ejs")%>
+<%- include ("../partials/menu.ejs")%>
+
+
+<h1>Crear nuevo Producto</h1>
+<form action="/products" method="post">
+    <p>
+    <label>Nombre del Prodcuto:</label>
+    <input type="text" name="nombre"  id="nombre">
+    </p>
+    <p>
+      <label>Marca:</label>
+      <input type="text" name="marca"  id="marca">
+    </p>
+
+    <p>
+        <label>Precio:</label>
+        <input type="text" name="precio"  id="precio">
+    </p>
+    <p>
+        <label>Descripción:</label>
+        <input type="text" name="descripcion"  id="descripcion">
+    </p>
+
+    <p>
+        <label>Caracteristicas:</label>
+        <input type="text" name="caracteristicas"  id="caracteristicas">
+    </p>
+    
+    <p>
+        <label>Imagen:</label>
+        <input type="text" name="imagen"  id="imagen">
+    </p>
+
+    <p>
+        <button type="submit">Enviar</button>
+    </p>
+    </form>
+
+<%- include ("../partials/footer.ejs")%>

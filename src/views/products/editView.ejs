@@ -1,0 +1,45 @@
+<%- include ("../partials/headHTML.ejs")%>
+<%- include ("../partials/headWeb.ejs")%>
+<%- include ("../partials/menu.ejs")%>
+<%- include ("../partials/menuProductos.ejs")%>
+
+
+<h1>Editar Producto</h1>
+<form action="/products/<%=producto.ID%>?_method=PUT" method="post">
+    <p><%=producto.Nombre%></p>
+    <p>
+    <label>Nombre del Prodcuto:</label>
+    <input type="text" name="nombre"  id="nombre">
+    </p>
+    <p><label><%=producto.Marca%></label></p>
+    <p>
+      <label>Marca:</label>
+      <input type="text" name="marca"  id="marca">
+    </p>
+    <p><%=producto.Precio%></p>
+    <p>
+        <label>Precio:</label>
+        <input type="text" name="precio"  id="precio">
+    </p>
+    <p><%=producto.Descripcion%></p>
+    <p>
+        <label>Descripción:</label>
+        <input type="text" name="descripcion"  id="descripcion">
+    </p>
+    <p><%=producto.Caracteristicas%></p>
+    <p>
+        <label>Caracteristicas:</label>
+        <input type="text" name="caracteristicas"  id="caracteristicas">
+    </p>
+    <p><%=producto.Imagen%></p>
+    <p>
+        <label>Imagen:</label>
+        <input type="text" name="imagen"  id="imagen">
+    </p>
+
+    <p>
+        <button type="submit">Enviar</button>
+    </p>
+    </form>
+
+<%- include ("../partials/footer.ejs")%>

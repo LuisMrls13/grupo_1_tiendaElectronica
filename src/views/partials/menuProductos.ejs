@@ -1,0 +1,11 @@
+<nav>
+    <P>Menu Productos</P>
+    
+    <p><a href="/products/<%=producto.ID%>/editView">Editar Producto</a></p>
+    
+    <form action="/products/<%=producto.ID%>?_method=DELETE" method="post">
+        <p>
+            <button type="submit">Borrar Producto</button>
+        </p>
+    </form>
+</nav>
