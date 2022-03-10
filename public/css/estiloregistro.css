@@ -1,7 +1,7 @@
 body {
     margin: 0 ;
     padding:0  ;
-    background: #8CA2A0  url("../img/fondo11.jpg") no-repeat center top;
+    background: #8CA2A0  url("../img/fondo10.jpg") no-repeat center top;
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
@@ -11,7 +11,7 @@ body {
 .login-box {
     width: 340px;
     height: 420px;
-    background:  #4498b154;
+    background:  #4498b17c;
     border-radius: 2%;
     color:rgb(255, 255, 255);
     top: 20% ;
