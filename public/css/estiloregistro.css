@@ -9,17 +9,19 @@ body {
 }
 
 .login-box {
-    width: 340px;
-    height: 420px;
+    width: 360px;
+    height: 1100px;
     background:  #4498b17c;
     border-radius: 2%;
     color:rgb(255, 255, 255);
     top: 20% ;
-    left: 35% ;
+    left: 38%;
+    right: auto;
+    flex-wrap: wrap ;
     position: absolute;
     transform: translate(-50%  -50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 70px 35px;
     
 }
 
@@ -74,6 +76,9 @@ border:4px solid white;
     font-size: 18px;
     border-radius: 20px;
 }
+.login-box input[type="submit"]:hover {
+   background-color: rgb(13, 9, 80);
+ }
 
 .login-box a {
     text-decoration: none;
@@ -91,14 +96,8 @@ border:4px solid white;
 
 
 @media screen and (max-width: 800px ){
-
-.login-box {
-    flex-wrap: wrap;
-    width: 340px;
-    height: 420px;
-    top: 10% ;
-    left: 25% ;
-    
+    .login-box {
+        flex-wrap: wrap;
+        left: 10%;
+    }
 }
-}
-

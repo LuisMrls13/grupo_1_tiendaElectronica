@@ -1,0 +1,124 @@
+/*--------- HEADER ------------*/
+header {
+    background: url("../img/fondo8.jpg") #8CA2A0 ;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+}
+
+header .menu {
+    margin: 40px 0 ;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 1000px;
+}
+header .menu .cuenta {
+    color: rgb(12, 42, 82);
+    font-size: 15px;
+    background: none;
+}
+
+    
+ 
+header .menu a { 
+    margin: 0 20px;
+    color: rgb(0, 29, 48);
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+    font-size: 25px; 
+    
+   }
+
+   
+   header .menu input 
+       {
+        border: #4497b17a;
+        text-align: justify;
+        margin: auto;
+        border: 1px solid #4497b17a;
+        border-radius: 10px;
+        padding: 5px 80px;
+        font-size: 18px;
+        color: #a4a4a4; }
+       
+  
+
+header .menu a:hover {
+border-bottom: 2px solid rgba(75, 59, 27, 0.397)
+    }
+
+
+ 
+
+header .contenedor-texto {
+    font-family: 'Neucha', cursive;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin: 100px 0;
+}
+
+header .contenedor-texto .texto {
+    border: 2px solid rgba (255,255.255, 0.5);
+    border-radius: 10px;
+    display: 3px;
+    text-align: center;
+    padding: 20px 60px;
+    background-color: #4497b17a
+}
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2 {
+    color: #fff ;
+    font-weight:300;
+    margin: 0 ;
+}
+
+header .contenedor-texto .texto .nombre {
+    margin: 10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+header .contenedor-texto .texto .empresa {
+font-size: 25px;
+line-height: 25px;
+}
+    /*----Botonoes de compra----*/
+
+    input[type="submit"]{
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #0b1850a6;
+        color: rgb(255, 255, 255) ; 
+        font-size: 18px;
+        border-radius: 20px;
+    }
+input[type="submit"]:hover {
+       background-color: rgb(13, 9, 80);
+     }
+    
+     
+footer .redes-sociales {
+    background:#4497b17a;
+    padding: 60px 0; }
+    footer .redes-sociales .contenedor {
+      display: flex;
+      justify-content: center; }
+footer .redes-sociales .contenedor a {
+color: #fff;
+text-align: center;
+width: 90px;
+font-size: 30px;
+padding: 10px 0 ;
+display:block;
+margin: 0 20px;
+        border-radius: 20px; }
+footer .redes-sociales .contenedor .twitter:hover {
+background: #55acee; }
+footer .redes-sociales .contenedor .facebook:hover {
+background: #3b5998; }
+footer .redes-sociales .contenedor .instagram:hover {
+background: #b1478e; }

@@ -11,7 +11,7 @@ body {
 .login-box {
     width: 340px;
     height: 420px;
-    background:  #4498b154;
+    background:  #4498b17c;
     border-radius: 2%;
     color:rgb(255, 255, 255);
     top: 20% ;
@@ -74,7 +74,10 @@ border:4px solid white;
     font-size: 18px;
     border-radius: 20px;
 }
-
+.login-box input[type="submit"]:hover {
+    background-color: rgb(13, 9, 80);
+  }
+ 
 .login-box a {
     text-decoration: none;
     font-size: 12px;
@@ -91,14 +94,9 @@ border:4px solid white;
 
 
 @media screen and (max-width: 800px ){
-
-.login-box {
-    flex-wrap: wrap;
-    width: 340px;
-    height: 420px;
-    top: 10% ;
-    left: 25% ;
-    
-}
+    .login-box {
+        flex-wrap: wrap;
+        left: 10%;
+    }
 }
 
