@@ -1,4 +1,4 @@
-# **Tienda de Electrónica** 
+# **Electroniks** 
 ***
 ## Tabla de contenidos
 1. [Objetivo](#objetivo)
@@ -52,10 +52,10 @@ El proyecto tendrá una duración aproxiamada de 16 semanas divididas en **8 spr
 
 ## Descripción de Productos
 ***
-Se pretende que nuestra tienda electrónica abarque una amplia variedad de productos desde instrumentos musicales y artículos de uso personal hasta aparatos para el hogar, el trabajo o la escuela. Considerando lo anterior, nuestro público objetivo es indistinto en cuanto a edad, sexo y nacionalidad, siempre y cuando cuenten con el poder adquisitivo necesario dada la calidad y diversidad de marcas que abarcara nuestro proyecto. 
+Se pretende que nuestra tienda electrónica abarque una amplia variedad de Laptops tanto gamers, basicas, con pantalla tactil, 2-1 como tambien ultralivianas.  Considerando lo anterior, nuestro público objetivo es indistinto en cuanto a edad, sexo y nacionalidad, siempre y cuando cuenten con el poder adquisitivo necesario dada la calidad y diversidad de marcas que abarcara nuestro proyecto. 
 ## Descripción de los integrantes
 ***
-* Gabriela Nuno Zamora: 23 años, estudiante de medicina. 
+* Gabriela Nuno Zamora 
 * Jovanni Miguel Lozano Martínez
 * María Guadalupe García Mendiola
 #### Referentes del Mercado
@@ -66,7 +66,7 @@ _Listado de referentes para el desarrollo del proyecto:_
 Dada la magnitud y diversidad de productos que Mercado Libre maneja, es un referente mundial para el e-commerce, es por ello que decidimos tomarlo en cuenta para la realización de nuestro proyecto.
 * **Steren**:
 
-Steren es una de las tiendas electrónicas más grandes del país, se dedican a distribuir una gran variedad de productos electrónicos como electrodomésticos, sistemas de seguridad, instrumentos musicales, computadoras, televisiones, entre otros. Es por ello que decidimos tomarlos como referentes teniendo en cuenta la similitud entre los productos que ofrecen y nuestro proyecto. 
+Steren es una de las tiendas electrónicas más grandes del país, se dedican a distribuir una gran variedad de productos electrónicos. Es por ello que decidimos tomarlos como referentes teniendo en cuenta la similitud entre los productos que ofrecen y nuestro proyecto. 
 * **Best Buy**: 
 
 Best Buy es una compañia especializada en venta de prouductos electrónicos y tecnologicos originaria de Estados Unidos, además, cuentan con envios a Canada y México, convirtiendose así en una de las compañias más grandes del mercado.
