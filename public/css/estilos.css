@@ -8,6 +8,7 @@ body {
     background: #fff;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+
 }
 
 .contenedor{
@@ -22,6 +23,7 @@ header {
     background: url("../img/fondo8.jpg") #8CA2A0 ;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     max-height: 600px;
 }
 
@@ -54,16 +56,15 @@ header .menu a {
    
    header .menu input 
        {
-        border: #4497b17a;
+        border: #286ed898;
         text-align: justify;
         margin: auto;
-        border: 1px solid #4497b17a;
+        border: 1px solid #038bb47a;
         border-radius: 10px;
         padding: 5px 80px;
         font-size: 18px;
-        color: #a4a4a4; }
+        color: #000000; }
        
-  
 
 header .menu a:hover {
 border-bottom: 2px solid rgba(75, 59, 27, 0.397)

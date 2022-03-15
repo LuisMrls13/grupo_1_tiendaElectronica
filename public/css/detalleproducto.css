@@ -3,11 +3,12 @@ header {
     background: url("../img/fondo8.jpg") #8CA2A0 ;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     max-height: 600px;
 }
 
 header .menu {
-    margin: 40px 0 ;
+    
     text-align: right;
     font-size: 18px;
     font-weight: 1000px;
@@ -21,7 +22,7 @@ header .menu .cuenta {
     
  
 header .menu a { 
-    margin: 0 20px;
+    margin: 25px;
     color: rgb(0, 29, 48);
     padding-bottom: 9px;
     display: inline-block;
@@ -42,7 +43,7 @@ header .menu a {
         border-radius: 10px;
         padding: 5px 80px;
         font-size: 18px;
-        color: #a4a4a4; }
+        color: #000000; }
        
   
 

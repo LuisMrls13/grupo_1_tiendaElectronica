@@ -1,18 +1,21 @@
 body {
-    margin: 0 ;
-    padding:0  ;
-    background: #8CA2A0  url("../img/fondo10.jpg") no-repeat center top;
+    margin: 0px ;
+    padding: 0 ;
+    background: #8CA2A0  url("../img/fondo10.jpg") no-repeat center top ;
     background-size: cover;
     font-family: sans-serif;
-    height: 100vh;
+    background-attachment: fixed;
+
    
 }
-
+h2{
+    text-align: center;
+}
 .login-box {
     width: 360px;
     height: 1100px;
     background:  #4498b17c;
-    border-radius: 2%;
+    border-radius: 1%;
     color:rgb(255, 255, 255);
     top: 20% ;
     left: 38%;
@@ -22,6 +25,7 @@ body {
     transform: translate(-50%  -50%);
     box-sizing: border-box;
     padding: 70px 35px;
+  
     
 }
 
