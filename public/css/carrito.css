@@ -105,16 +105,18 @@ input[type="submit"]:hover {
 footer .redes-sociales {
     background:#4497b17a;
     padding: 60px 0; 
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    color: white;
-        
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        color: white;
+      
 }
-    footer .redes-sociales .contenedor {
-      display: flex;
-      justify-content: center; }
+footer .redes-sociales .contenedor {
+display: flex;
+justify-content: center;
+
+}
 footer .redes-sociales .contenedor a {
 color: #fff;
 text-align: center;
