@@ -14,3 +14,10 @@ En el Sprint 4 hemos creado una mejor comunicacion para trabajar en equipo, real
 Hemos realizado un archivo JSON en ellos estan los datos de usuarios, realizamos el CRUD de productos. 
 Tenemos ya el archivo "productos.json" y "users.json"
 
+Durante el sprint 5, nos dividimos de una manera mas responsable todas las actividades, cada uno hizo algo especifico para cumplir con los pasos pedidos. Logramos avanzar como equipo mostrando dudas y respondiendo preguntas entre todos nosotros, asi mismo logrando cumplir con el sprint.
+De este mismo partimos al sprint 6 pues los hicimos juntos. Uniendo ambos trabajos para mejorar su funcionalidad, en el sprint 6 creamos las bases de datos, los sequelize, CRUD y relaciones con el DER. Avanzamos demasiado pues cada uno se enfoco en lo que mas le gusta, ya sea base de datos, o vistas. 
+
+En el sprint 7 junto con el 8 creamos un nuevo metodo de trabajo, cada uno hace una funcion, la comenta, comparte dudas y el equipo busca una misma resolucion, llevando asi a cabo el cumplimiento de los sprints pero solucionando dudas importantes, que tal vez a uno no se le quedo claro pero a otro si. 
+En este momento estamos ya afinando si no ultimos detalles porque faltan algunas cosas, estamos realizando paso por paso para no quedarnos con dudas o no cumplir correctamente con lo que es solicitado. 
+En este momento nos encontramos ya trabajando en el sprint 7 y 8.
+
