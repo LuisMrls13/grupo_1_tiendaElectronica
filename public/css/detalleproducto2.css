@@ -1,0 +1,235 @@
+body{
+    background-color: hsla(180, 25%, 76%, 0.24);
+
+}
+
+.cajaPrincipal
+{
+    display: flex;/*trabajar con flex box */
+    flex-direction:column;/*definir eje principal -- row o column */
+    
+
+    align-items: center;/* alineacion del eje secundario*/
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: "Open Sans", sans-serif;
+    margin: 10px;
+}
+
+.cuadroProducto{
+    
+    display: flex;/*trabajar con flex box */
+    flex-direction:row;/*definir eje principal -- row o column */
+    flex-wrap: wrap; /*respetar el tamaño de los elementos por linea*/
+    justify-content:space-around;/* alineacion del eje principal*/
+    align-items: center;/* alineacion del eje secundario*/
+    
+    background-color: hsla(180, 72%, 30%, 0.24);
+    
+    width: 80%;
+    height: auto;
+}
+
+/*cuadro de imagen*/
+/* Adaptar imagenes a divs
+https://www.delftstack.com/es/howto/css/resize-image-css/
+*/
+img {
+    height: 100%;
+ width: 100%;
+ object-fit: contain;
+}
+
+.cat {
+ height:300px;
+ width: 650px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ background-color: white;
+ border-radius: 10px;
+}
+
+
+/*Cuadro de detalles*/
+.detallesP{
+    display: flex;/*trabajar con flex box */
+    flex-direction:column;/*definir eje principal -- row o column */
+    justify-content:flex-start;/* alineacion del eje principal*/
+    
+    font-family: "Open Sans", sans-serif;
+
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+    border-color: gray;
+    margin-bottom: 10px;
+}
+
+
+
+.precio{
+    display: flex;/*trabajar con flex box */
+    flex-direction:row;/*definir eje principal -- row o column */
+    flex-wrap: wrap; /*respetar el tamaño de los elementos por linea*/
+    justify-content:center;/* alineacion del eje principal*/
+    align-items: center;/* alineacion del eje secundario*/
+    margin-top: 8px;
+}
+h2{
+    
+    font-size: 26px;
+    margin: 0px;
+}
+
+.descuento{
+   
+    font-size: 18px;
+    color: green;
+    margin: 0px;
+}
+.precioOriginal{
+    
+    font-size: 14px;
+    color: darkgray;
+    text-align: center;
+    margin: -5px;
+}
+
+.cintaEnvio{
+    background: blue;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 4px;  
+    width: 150px; 
+    margin-top: 30px;
+    
+}
+.stockLeyenda{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.formDetalles
+{
+    display: flex;
+    flex-direction:column;/*definir eje principal -- row o column */
+}
+
+.cuadroCantidad{
+    display: flex;/*trabajar con flex box */
+    flex-direction:row;/*definir eje principal -- row o column */
+    flex-wrap: wrap; /*respetar el tamaño de los elementos por linea*/
+    justify-content:flex-start;/* alineacion del eje principal*/
+    align-items: center;/* alineacion del eje secundario*/
+    margin-top: 8px;
+    margin-left: 10px;
+
+}
+
+.selector
+{
+    display: flex;/*trabajar con flex box */
+    flex-direction:row;/*definir eje principal -- row o column */
+    flex-wrap: wrap; /*respetar el tamaño de los elementos por linea*/
+    justify-content:flex-start;/* alineacion del eje principal*/
+    align-items: center;/* alineacion del eje secundario*/
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.cantidad{
+    width: 50px;
+}
+
+.bmenos
+{
+    width: 20px;
+    text-align: center;
+   
+    color: white;
+    
+}
+
+.bmas{
+    width: 20px;
+    text-align: center;
+   
+    color:white;
+    
+}
+
+.dispobinle{
+    color: gray;
+    font-size: 14px;
+}
+
+.bagregar{
+   
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border-color: white;
+    width: 150px;
+    height: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    
+    margin-top: 20px;
+
+    align-self: center;
+
+}
+
+.detallesP2{
+    background-color: white;
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.beditar{
+    color: white;
+    background-color: rgb(73, 218, 97);
+    border-radius: 5px;
+    border-color: white;
+    width: 150px;
+    height: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    
+    margin-top: 20px;
+
+    align-self: center;
+}
+
+.beliminar{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border-color: white;
+    width: 150px;
+    height: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    
+    margin-top: 20px;
+
+    align-self: center;
+}
+.caracteristicas{
+    background-color:  white;
+    width: 630px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 10px;
+}
