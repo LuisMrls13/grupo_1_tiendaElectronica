@@ -105,11 +105,12 @@ h2{
     background:  #4498b17c;
     border-radius: 1%;
     color:rgb(255, 255, 255);
-    top: 20% ;
+    top: 15% ;
+    bottom: 50px;
     left: 38%;
     right: auto;
     flex-wrap: wrap ;
-    position: absolute;
+    position: relative;
     transform: translate(-50%  -50%);
     box-sizing: border-box;
     padding: 70px 35px;    

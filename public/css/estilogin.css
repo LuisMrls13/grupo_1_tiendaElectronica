@@ -1,6 +1,6 @@
 /*--------- HEADER ------------*/
 header {
-    background: url("../img/fondo8.jpg") #8CA2A0 ;
+    background: url("../img/fondo8.jpg") #8CA2A0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -8,20 +8,21 @@ header {
 }
 
 header .menu {
-    
+
     text-align: right;
     font-size: 18px;
     font-weight: 1000px;
 }
+
 header .menu .cuenta {
     color: rgb(12, 42, 82);
     font-size: 15px;
     background: none;
 }
 
-    
- 
-header .menu a { 
+
+
+header .menu a {
     margin: 25px;
     color: rgb(0, 29, 48);
     padding-bottom: 9px;
@@ -29,52 +30,53 @@ header .menu a {
     text-decoration: none;
     border-bottom: 2px solid transparent;
     font-size: 1em;
-    font-size: 25px; 
-    
-   }
+    font-size: 25px;
 
-   
-   header .menu input 
-       {
-        border: #4497b17a;
-        text-align: justify;
-        margin: auto;
-        border: 1px solid #4497b17a;
-        border-radius: 10px;
-        padding: 5px 80px;
-        font-size: 18px;
-        color: #000000; }
-       
-  
+}
+
+
+header .menu input {
+    border: #4497b17a;
+    text-align: justify;
+    margin: auto;
+    border: 1px solid #4497b17a;
+    border-radius: 10px;
+    padding: 5px 80px;
+    font-size: 18px;
+    color: #000000;
+}
+
+
 
 header .menu a:hover {
-border-bottom: 2px solid rgba(75, 59, 27, 0.397)
-    }
+    border-bottom: 2px solid rgba(75, 59, 27, 0.397)
+}
 
 
- 
+
 
 header .contenedor-texto {
     font-family: 'Neucha', cursive;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-content: center;
     margin: 100px 0;
 }
 
 header .contenedor-texto .texto {
-    border: 2px solid rgba (255,255.255, 0.5);
+    border: 2px solid rgba (255, 255.255, 0.5);
     border-radius: 10px;
     display: 3px;
     text-align: center;
     padding: 20px 60px;
     background-color: #4497b17a
 }
+
 header .contenedor-texto .texto h1,
 header .contenedor-texto .texto h2 {
-    color: #fff ;
-    font-weight:300;
-    margin: 0 ;
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
 }
 
 header .contenedor-texto .texto .nombre {
@@ -82,48 +84,59 @@ header .contenedor-texto .texto .nombre {
     font-size: 50px;
     line-height: 50px;
 }
+
 header .contenedor-texto .texto .empresa {
-font-size: 25px;
-line-height: 25px;
+    font-size: 25px;
+    line-height: 25px;
 }
 
 
 body {
-    margin: 0 ;
-    padding:0  ;
-    background: #8CA2A0  url("../img/fondo11.jpg") no-repeat center top;
+    margin: 0;
+    padding: 0;
+    background: #8CA2A0 url("../img/fondo11.jpg") no-repeat center top;
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
-   
+
+}
+
+div .box {
+    display: flex;
+    flex-direction: row;
+    color: rgb(88, 88, 88);
+    display: block;
+    font-size: small;
+
 }
 
 .login-box {
     width: 340px;
-    height: 420px;
-    background:  #4498b17c;
+    height: 450px;
+    background: #4498b17c;
     border-radius: 2%;
-    color:rgb(255, 255, 255);
-    top: 20% ;
-    left: 35% ;
+    color: rgb(255, 255, 255);
+    top: 20%;
+    left: 35%;
     position: absolute;
-    transform: translate(-50%  -50%);
+    transform: translate(-50% -50%);
     box-sizing: border-box;
     padding: 70px 30px;
-    
+
 }
+
 
 .login-box .ellogo {
-width: 100px;
-height: 100px;
-border-radius: 50%;
-position: absolute;
-top: -70px;
-left: calc(50% - 50px);
-border:4px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 50px);
+    border: 4px solid white;
 }
 
-.login-box h1{
+.login-box h1 {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
@@ -134,7 +147,7 @@ border:4px solid white;
     margin: 0;
     padding: 0;
     font-weight: bold;
-    display: block;
+
 }
 
 .login-box input {
@@ -155,38 +168,48 @@ border:4px solid white;
     font-weight: 300px;
 }
 
-.login-box input[type="submit"]{
+.login-box input[type="submit"] {
     border: none;
     outline: none;
     height: 40px;
     background: #0b1850a6;
-    color: rgb(255, 255, 255) ; 
+    color: rgb(255, 255, 255);
     font-size: 18px;
     border-radius: 20px;
 }
+
 .login-box input[type="submit"]:hover {
     background-color: rgb(13, 9, 80);
-  }
- 
+}
+
 .login-box a {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     color: rgb(14, 22, 133);
-    
 
 
+
+}
+
+.login-box input[type="checkbox"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    height: 15px;
+    color: #0b1850a6;
+    padding: 1%;
+    flex-direction: row;
 }
 
 .login-box a:hover {
-   color: rgb(245, 244, 244) 
+    color: rgb(245, 244, 244)
 }
 
 
-@media screen and (max-width: 800px ){
+@media screen and (max-width: 800px) {
     .login-box {
         flex-wrap: wrap;
         left: 10%;
     }
 }
-
