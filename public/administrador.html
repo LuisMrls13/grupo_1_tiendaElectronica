@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Producto</title>
+    <title>Administrador</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/detalleproducto.css">
+    <link rel="stylesheet" href="css/administrador.css">
 </head>
 
 <body>
@@ -32,35 +32,50 @@
             </nav>
         </div>
     </header>
-    <h1>Laptop Acer Aspire 1 A114-32-C087 Intel Celeron <br>4GB RAM 64GB eMMc</h1>
-    <div class="contenedor2">
-        <h1>
-            <img src="/public/img/productos/AcerAspire_1.jpg" alt="Acer1">
-            <img src="/public/img/productos/AcerAspire_2.jpg" alt="Acer2">
-            <img src="/public/img/productos/AcerAspire_3.jpg" alt="Acer3">
+    <div class="contenedor1">
+        <div class="contenedor2">
+
+            <div class="login-box">
+                <img class="ellogo" src="img/logo1.jpg" alt="Logo">
+                <h1>Administrar productos</h1>
+                <form>
+
+                    <label for="username">Nombre del producto</label>
+                    <input type="text" placeholder="Inserta el nombre del producto">
+
+                    <!---nombre completo-->
+                    <label for="username">Modelo</label>
+                    <input type="text" placeholder="xxx-X-X-xxx ">
+
+
+                    <label for="username">Cantidad</label>
+                    <input type="text" placeholder="digite cantidad con numeros">
+
+
+                    <label for="color">Color</label>
+                    <input type="text" placeholder="Inserta el color descrito en producto">
+
+                    <!--Teléfono-->
+                    <label for="numero">Marca</label>
+                    <input type="text" placeholder="Marca de producto">
+
+
+                    <label for="text">Clave</label>
+                    <input type="text" placeholder="Inserta la clave de la marca">
+                    <p class="selecciona">Selecciona imagen del producto</p> <br>
+                    <div class="paraimagen">
+                        <form name="subida-imagenes" type="POST" enctype="multipart/formdata">
+                            <input type="file" name="imagen1" />
+                        </form>
+                    </div>
+                    </p>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+        </div>
 
     </div>
-
-    <section class="descrpcionproducto">
-        <div>
-            <h2>Insertar precio de oferta </h2>
-            <h3> <del>Isertar Precio sin oferta </del></h3>
-
-        </div>
-        <div>
-            <h3> Descripción del producto</h3>
-            <p>
-                Aquí van los detalles del producto /descripción
-            </p>
-        </div>
-
-        <div>
-            <input type="submit" value="Agregar al carrito">
-            <input type="submit" value="Comprar ahora">
-        </div>
-    </section>
-
-
 
     <footer>
         <section class="redes-sociales">
@@ -70,9 +85,8 @@
                 <a class="instagram" href="#"><i class="fab fa-instagram"></i></a>
             </div>
         </section>
+
     </footer>
-
-
 
 </body>
 
