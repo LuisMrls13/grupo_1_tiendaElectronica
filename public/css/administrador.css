@@ -1,3 +1,24 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*--------- HEADER ------------*/
 header {
     background: url("../img/fondo8.jpg") #8CA2A0;
     background-repeat: no-repeat;
@@ -7,7 +28,7 @@ header {
 }
 
 header .menu {
-
+    margin: 40px 0;
     text-align: right;
     font-size: 18px;
     font-weight: 1000px;
@@ -22,7 +43,7 @@ header .menu .cuenta {
 
 
 header .menu a {
-    margin: 25px;
+    margin: 0 20px;
     color: rgb(0, 29, 48);
     padding-bottom: 9px;
     display: inline-block;
@@ -35,16 +56,15 @@ header .menu a {
 
 
 header .menu input {
-    border: #4497b17a;
+    border: #286ed898;
     text-align: justify;
     margin: auto;
-    border: 1px solid #4497b17a;
+    border: 1px solid #038bb47a;
     border-radius: 10px;
     padding: 5px 80px;
     font-size: 18px;
     color: #000000;
 }
-
 
 
 header .menu a:hover {
@@ -89,47 +109,42 @@ header .contenedor-texto .texto .empresa {
     line-height: 25px;
 }
 
+/*---BODY---*/
 body {
-    margin: 0px;
-    padding: 0;
-    background: #8CA2A0 url("../img/fondo10.jpg") no-repeat center top;
-    background-size: cover;
-    font-family: sans-serif;
-    background-attachment: fixed;
-    height: 100vh;
 
-
+    background: hsla(180, 25%, 76%, 0.582)
 }
 
-h2 {
-    text-align: center;
+.contenedor1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor2 {
+    width: 45%;
+
+
+
+
 }
 
 .login-box {
-    width: 360px;
-    height: 1100px;
+
+
     background: #4498b17c;
-    border-radius: 1%;
+    border-radius: 2%;
     color: rgb(255, 255, 255);
-    top: 20%;
-    left: 38%;
-    position: absolute;
-    transform: translate(-50% -50%);
+    position: relative;
     box-sizing: border-box;
-    padding: 70px 35px;
-    margin: buttom;
-
+    padding: 70px 30px;
 
 }
 
-.contenedorPadre {
-
-    display: flex;
-    flex-direction: row;
-    color: rgb(88, 88, 88);
-    display: block;
-    font-size: small;
-}
 
 .login-box .ellogo {
     width: 100px;
@@ -152,7 +167,7 @@ h2 {
     margin: 0;
     padding: 0;
     font-weight: bold;
-    display: block;
+
 }
 
 .login-box input {
@@ -197,16 +212,97 @@ h2 {
 
 }
 
+
+
 .login-box a:hover {
     color: rgb(245, 244, 244)
 }
 
+.selecciona {
+    text-align: center;
+    font-weight: bold;
+}
 
+.paraimagen input[type="file"] {
+    outline: none;
+    color: rgb(131, 124, 124);
+    font-size: 15px;
+}
+
+/*----Footer--*/
+
+
+
+footer .redes-sociales {
+    background: #4497b17a;
+    padding: 60px 0;
+}
+
+footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales .contenedor a {
+    color: #fff;
+    text-align: center;
+    width: 90px;
+    font-size: 30px;
+    padding: 10px 0;
+    display: block;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+footer .redes-sociales .contenedor .twitter:hover {
+    background: #55acee;
+}
+
+footer .redes-sociales .contenedor .facebook:hover {
+    background: #3b5998;
+}
+
+footer .redes-sociales .contenedor .instagram:hover {
+    background: #b1478e;
+}
+
+
+
+
+
+
+
+/* -------MEDIA QUERIES -----*/
 
 @media screen and (max-width: 800px) {
-    .login-box {
-        flex-wrap: wrap;
-        left: 10%;
+    header .menu {
+        text-align: center;
+    }
 
+    header .input {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    .main .productos .contenedor-productos .producto {
+        width: 46%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    header .contenedor-texto .texto .nombre {
+        font-size: 35px;
+    }
+
+    header .contenedor-texto .texto .empresa {
+        font-size: 18px;
+    }
+
+    footer .redes-sociales .contenedor {
+        flex-wrap: wrap;
+        padding: 10px;
     }
 }
