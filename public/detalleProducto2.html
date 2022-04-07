@@ -1,0 +1,70 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle</title>
+
+    <link rel="stylesheet" href="css/detalleproducto2.css">
+    <!--para camioncito-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+</head>
+<body>
+<div class="cajaPrincipal">
+    <h1>Lapto Acer</h1>
+
+    <div class="cuadroProducto">
+        
+            <div class="cat">
+                <img src="img/productos/AcerAspire_2.jpg" alt="AcerAspire">
+            </div>
+
+
+            <div class="detallesP">
+                <div class="precio "><h2>$1000</h2><p class="descuento">40% OFF</p></div>
+                <p class="precioOriginal "><del>$1400</del></p>
+                <div class="cintaEnvio">&nbsp;<i class="fas fa-bolt"></i>&nbsp;<i class="fas fa-shuttle-van"></i> ENVIÓ RÁPIDO  </div>
+                <div class="stockLeyenda">Stock Disponible</div>
+                
+                <form action="/agregarCarrito" method="POST" class="formDetalles">
+                <div class="cuadroCantidad">
+                    <label>Cantidad:&nbsp;</label>
+                    <div class="selector">
+                        <div class="bmenos">-</div>
+                        <input type="cantidad" name="cantidad" class="cantidad">
+                        <div class="bmas">+</div>
+                    </div>
+                    <div class="dispobinle">(20 disponibles)</div>
+                </div>
+                <div class="cuadroCantidad">
+                    <label>Color:&nbsp;</label>
+                    <select name="select">
+                        <option value="value1">Value 1</option>
+                        <option value="value2" selected>Value 2</option>
+                        <option value="value3">Value 3</option>
+                      </select>
+                </div>
+                <button type="submit" class="bagregar">Agregar al carrito</button>
+                </form>
+           
+            </div>
+
+
+            <div class="caracteristicas"><p>Podemos usar el valor auto para el ancho y establecer la propiedad max-height para especificar el ancho de una imagen para que quepa en un contenedor. Reduciremos la altura de la imagen a la altura del contenedor. Por ejemplo, inserte una imagen como la anterior en HTML y establezca la altura del contenedor como 200px en CSS. A continuación, seleccione la etiqueta img, establezca el ancho en auto y establezca la propiedad max-height en 100%.
+
+                En el siguiente ejemplo, la imagen tiene inicialmente 400px de alto y ancho. Hemos establecido la altura del contenedor en 200px. La propiedad max-height establecida en 100% reduce la imagen a 200px. Así, redimensionamos la altura de la imagen según la altura del contenedor.</p></div>
+            <div class="detallesP2">
+                <form action="/agregarCarrito" method="POST" class="formDetalles">
+                    <button type="submit" class="beditar">Editar producto</button>
+                </form>
+
+                <form action="/agregarCarrito" method="POST" class="formDetalles">
+                    <button type="submit" class="beliminar">Eliminar producto</button>
+                </form>
+            </div>
+        
+    </div>
+</div>
+</body>
+</html>
