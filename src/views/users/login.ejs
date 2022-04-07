@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electroni-k</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/estilogin.css">
+
+    <script src="/js/login.js"></script>
+</head>
+
+<body>
+
+<%- include ("../partials/headWeb.ejs")%>
+
+<div class="login-box">
+    <img class="ellogo" src="/img/logo1.jpg" alt="Logo">
+    <h1>Inicia sesión</h1>
+    <form action="/users/login" method="POST">
+        <!---- User name ---->
+        <label for="username">Usuario </label>
+        <input type="text" placeholder="correo" name="correo"  id="correo">
+
+        <!-- Paswsword -->
+        <div class="info"><label for="paswsword">Contraseña</label>
+            <input type="password" placeholder="contraseña" name="contraseña"  id="contraseña">
+            <input type="submit" value="Iniciar ">
+        </div>
+        <div class="box"> <input type="checkbox"> <label>Recordarme</label>
+        </div>
+        <br>
+        <a href=" #">¿Olvidaste tu contraseña?</a><br>
+        <a href="#">¿No tienes cuenta con nosotros?</a>
+    </form>
+
+</div>
+
+</body>

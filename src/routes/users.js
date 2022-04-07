@@ -8,6 +8,8 @@ const router=express.Router();
 router.get("/register",usersController.registerView);
 router.post("/register",usersController.registerStore);
 router.get("/list",usersController.lista);
+router.get("/login",usersController.loginView);
+router.post("/login",usersController.login);
 //router.post("/register",logDBMiddleware,usersController.store);
 
 

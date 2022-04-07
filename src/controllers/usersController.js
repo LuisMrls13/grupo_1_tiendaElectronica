@@ -23,8 +23,39 @@ const usersController = {
             console.log(usuariosdb);
             res.send(usuariosdb);
         });
+    }
+    ,
+    loginView:(req,res)=>{
+        res.render("./users/login");
+    },
+    login:(req,res)=>{
+
+        req.body.correo;
+        
+        db.Usuario.findOne({
+            where:{
+                email:req.body.correo
+            }
+        })
+        .then((resultado)=>{
+             
+            
+            if(resultado.password==req.body.contraseña){
+                req.session.usuario=resultado.nombreUsuario;
+                
+                res.redirect("/");
+            }
+            else{
+                res.redirect("/users/login");
+            }
         
         
+        }).catch((error)=>{
+            res.redirect("/users/login");
+        });
+
+        
+       
     }
 };
 
