@@ -10,6 +10,7 @@ router.post("/register",usersController.registerStore);
 router.get("/list",usersController.lista);
 router.get("/login",usersController.loginView);
 router.post("/login",usersController.login);
+router.get("/closeSesion",usersController.closeSesion);
 //router.post("/register",logDBMiddleware,usersController.store);
 
 

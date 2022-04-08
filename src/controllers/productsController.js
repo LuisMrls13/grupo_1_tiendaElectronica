@@ -8,19 +8,54 @@ let productos =JSON.parse(fs.readFileSync(filepath, 'utf-8'));//la vuelvo un obj
 
 const productsController = {
     id:(req,res)=>{    
-    let numId=parseInt(req.params.id)-1;
+
+        let cadenaUsuario;
+        if(req.session.usuario==undefined)
+        cadenaUsuario="undefined";
+        else
+        cadenaUsuario=req.session.usuario;
+        
+        let nivelMiembro
+        if(req.session.nivel==undefined)
+            nivelMiembro=0;
+        else
+            nivelMiembro=req.session.nivel;
+        
+    let numId=parseInt(req.params.id);
+
+    let productoMos;
+
+    productoMos=productos.filter(function(item){
+        return item.ID==numId;
+       }
+    );
+    productoMos=productoMos[0];
+    let laDescripcion =productoMos.Descripcion
+    aDescripcion=laDescripcion.split("\r\n\r\n");  
+
     res.render('./products/producto',{
-        "title":productos[numId].Nombre,
+        "title":productoMos.Nombre,
         "cssObject":[],
-        "producto":productos[numId]
+        "producto":productoMos,
+        cadenaUsuario: cadenaUsuario,
+        nivelMiembro:nivelMiembro,
+        aDescripcion:aDescripcion
+
     });
     },
     listado:(req,res)=>{
+
+        let cadenaUsuario;
+       if(req.session.usuario==undefined)
+       cadenaUsuario="undefined";
+       else
+       cadenaUsuario=req.session.usuario;
     
         res.render('./products/listado',{
             "title":"Listado de productos",
             "cssObject":[],
-            "productos":productos
+            "productos":productos,
+            cadenaUsuario: cadenaUsuario
         });
      
     },

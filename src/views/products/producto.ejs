@@ -1,26 +1,99 @@
-<%- include ("../partials/headHTML.ejs")%>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electroni-k</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    
+
+
+    <link rel="stylesheet" href="/css/carrito.css">
+    <link rel="stylesheet" href="/css/detalleproducto2.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
 <%- include ("../partials/headWeb.ejs")%>
-<%- include ("../partials/menu.ejs")%>
-<%- include ("../partials/menuProductos.ejs")%>
 
-<h1>Producto</h1>
-<p></p>
-<h2><%=producto.Nombre%></h2>
-<p></p>
-<p>Precio: <%=producto.Precio%> </p>
-<p></p>
-<p>Marca: <%=producto.Marca%></p>
-<p></p>
-<p>Descripción:</p>
-<p><%=producto.Descripcion%></p>
+<div class="cajaPrincipal">
+    <h1><%=producto.Nombre%></h1>
 
-<p></p>
+    <div class="cuadroProducto">
+        
+            <div class="cat">
+                <img src="/img/productos/<%=producto.Imagenes[0]%>" alt="<%=producto.Nombre%>">
+            </div>
 
-<img src="/img/productos/<%=producto.Imagenes[0]%>"  alt="<%=producto.Nombre%>" class="product_img" height="100%">
 
-<p></p>
-<p>Caracteristicas:</p>
-<p><%=producto.Caracteristicas%></p>
+            <div class="detallesP">
+                <div class="precio "><h2>$<%=producto.Precio%></h2><% /*<p class="descuento">40% OFF</p></div>
+                <p class="precioOriginal "><del>$1400</del></p>*/%></div>
+                <div class="cintaEnvio">&nbsp;<i class="fas fa-bolt"></i>&nbsp;<i class="fas fa-shuttle-van"></i> ENVIÓ RÁPIDO  </div>
+                <div class="stockLeyenda">Stock Disponible</div>
+                
+                <form action="/agregarCarrito" method="POST" class="formDetalles">
+                <div class="cuadroCantidad">
+                    <label>Cantidad:&nbsp;</label>
+                    <div class="selector">
+                        <div class="bmenos">-</div>
+                        <input type="cantidad" name="cantidad" class="cantidad" value="1" >
+                        <div class="bmas">+</div>
+                    </div>
+                    <div class="dispobinle">(20 disponibles)</div>
+                </div>
+                <%/*
+                <div class="cuadroCantidad">
+                    <label>Color:&nbsp;</label>
+                    <select name="select">
+                        <option value="value1">Value 1</option>
+                        <option value="value2" selected>Value 2</option>
+                        <option value="value3">Value 3</option>
+                      </select>
+                </div>*/%>
+                <button type="submit" class="bagregar">Agregar al carrito</button>
+                </form>
+           
+            </div>
+
+
+            <div class="caracteristicas">
+                <p>
+                <%for(let i=0;i<aDescripcion.length;i++){%>
+                 -<%=aDescripcion[i]%><br>
+                <% }%>
+                </p>
+            </div>
+
+            <%if(nivelMiembro==3){%>
+            <div class="detallesP2">
+                <form action="/agregarCarrito" method="POST" class="formDetalles">
+                    <button type="submit" class="beditar">Editar producto</button>
+                </form>
+
+                <form action="/agregarCarrito" method="POST" class="formDetalles">
+                    <button type="submit" class="beliminar">Eliminar producto</button>
+                </form>
+            </div>
+            <%}%>
+        
+    </div>
+</div>
+
+
 
 <%- include ("../partials/footer.ejs")%>
+
+</body>
+</html>
 

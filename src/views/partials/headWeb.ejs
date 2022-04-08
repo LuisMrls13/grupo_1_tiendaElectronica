@@ -1,12 +1,22 @@
 <header>
     <div class="contenedor">
         <nav class="menu">
+            
             <input type="text" placeholder="Buscar productos..." name="buscar" required>
             <a class="lupita" href="#"><i class="fas fa-search"></i></a>
-            <a class="cuenta" href="#">Crea tu cuenta</i></a>
-            <a href="#"><i class="fas fa-user-alt"></i></a>
+            <a class="cuenta" href="/">Inicio</i></a>
+           
+            <% if(cadenaUsuario=="undefined"){%>
+                <a class="cuenta" href="/users/register">Crea tu cuenta</i></a>
+                <a href="/users/login"><i class="fas fa-user-alt"></i>Entrar</a>
+                <%}
+                else{
+                %>
+                <a class="cuenta" href="/users/closeSesion">Cerrar Sesión </i></a>
+                <i class="fas fa-user-alt"></i><%=cadenaUsuario%>
+                <%}%>
             <a href="#"><i class="fas fa-bell"></i></a>
-            <a href="#"><i class="fas fa-shopping-basket"></i></a>
+            <a href="./carrito.html"><i class="fas fa-shopping-basket"></i></a>
         </nav>
     </div>
 </header>

@@ -210,3 +210,11 @@ h2 {
 
     }
 }
+
+.correoExistente{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+}

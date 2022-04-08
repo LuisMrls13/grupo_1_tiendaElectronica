@@ -7,14 +7,18 @@ const productos =JSON.parse(fs.readFileSync(filepath, 'utf-8'));
 const mainController = {
     index:(req,res)=>{
        // res.render("index2");
+       let cadenaUsuario;
+       if(req.session.usuario==undefined)
+       cadenaUsuario="undefined";
+       else
+       cadenaUsuario=req.session.usuario;
 
         res.render('home',{
-            "productos":productos
+            "productos":productos,
+            cedenaUsuario:cadenaUsuario
         });//rem
     },
-    login:(req,res)=>{
-        res.render("login",{req});
-    }
+    
 };
 
 module.exports = mainController;
