@@ -114,9 +114,19 @@ input[type="submit"]:hover {
 
 
 /*--BoDY--*/
+.contenedorPrincipal {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
 body {
     font-family: "Open Sans", sans-serif;
     background-color: hsla(180, 25%, 76%, 0.24);
+    height: 100%;
+
 }
 
 img {
@@ -226,22 +236,18 @@ select {
 footer .redes-sociales {
     background: #4497b17a;
     padding: 60px 0;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 948ae87e7a3208ae0fc9ffe45d2e8143b3b66147
     bottom: 0;
-    width: 100%;
-    height: 40px;
-    color: white;
-
-}
-
-footer .redes-sociales {
-    background: #4497b17a;
-    padding: 60px 0;
+    position: relative;
 }
 
 footer .redes-sociales .contenedor {
     display: flex;
     justify-content: center;
+
 }
 
 footer .redes-sociales .contenedor a {
@@ -266,6 +272,7 @@ footer .redes-sociales .contenedor .facebook:hover {
 footer .redes-sociales .contenedor .instagram:hover {
     background: #b1478e;
 }
+
 
 
 /* -------MEDIA QUERIES -----*/
