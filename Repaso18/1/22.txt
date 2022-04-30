@@ -1,7 +1,0 @@
-Crear pagina que pida algo          index.ejs muestra cosas ahi hacemos clic en algun link  /pruducts/id
-hacer controlador                   /products/:id express
-controlador mande una respuesta     donde insertamos en un ejs segun el id para hacer una vista dinamica
-
-crear peticion                       menu  hacia /productos
-hacer controlador                    /products/ 
-controlador mandar una resputa      src/views/producs/listado.ejs
